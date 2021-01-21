@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom'; 
 import App from './App';
@@ -14,3 +15,16 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+=======
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import store from "../src/redux-store/store/store";
+import { Provider } from "react-redux";
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
+>>>>>>> 4669fe9081907f788684d16c00faf10f2dddcbdf

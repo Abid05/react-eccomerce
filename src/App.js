@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {BrowserRouter} from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import {Switch, Route} from 'react-router-dom';
@@ -17,4 +18,16 @@ function App() {
   );
 }
 
+=======
+import React from "react";
+import Recipe from "./components/recipe/Recipe";
+
+const App = () => {
+  return (
+    <div>
+      <Recipe />
+    </div>
+  );
+};
+>>>>>>> 4669fe9081907f788684d16c00faf10f2dddcbdf
 export default App;
