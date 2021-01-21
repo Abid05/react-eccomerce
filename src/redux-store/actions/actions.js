@@ -1,4 +1,4 @@
 export const myAction = (cat, img) => ({
-  type: "HELLO_REACT",
+  type: "ADD_CAT",
   payload: { cat: cat, img: img },
 });

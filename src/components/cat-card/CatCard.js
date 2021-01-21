@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { myAction } from "../../redux-store/actions/actions";
 import axios from "axios";
-const RecipeCard = ({ addCat }) => {
+const CatCard = ({ addCat }) => {
   const [cats, setCats] = useState([]);
   useEffect(() => {
     axios
@@ -65,4 +65,4 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
   addCat: (cat, catImg) => dispatch(myAction(cat, catImg)),
 });
-export default connect(mapStateToProps, mapDispatchToProps)(RecipeCard);
+export default connect(mapStateToProps, mapDispatchToProps)(CatCard);
