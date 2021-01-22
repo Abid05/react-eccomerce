@@ -1,11 +1,6 @@
 import React from "react";
-import Recipe from "./components/recipe/Recipe";
-
+import CatContainer from "./components/CatContainer/CatContainer";
 const App = () => {
-  return (
-    <div>
-      <Recipe />
-    </div>
-  );
+  return <CatContainer />;
 };
 export default App;
