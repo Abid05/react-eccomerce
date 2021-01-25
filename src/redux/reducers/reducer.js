@@ -4,11 +4,11 @@ const intialState = { cat: [] };
 const reducer = (state = intialState, action) => {
   switch (action.type) {
     case addType: { 
-      let quantity = 1;
-      return {
-        ...state,
-         cat: [...state.cat, state.cat.name === action.payload.name ? quantity + 1 :  action.payload], quantity,
-      };
+      let quantity = 1;  
+      return { 
+        ...state, 
+        cat: [...state.cat, action.payload],quantity
+      } 
     }
     case removeType: {
       return { 

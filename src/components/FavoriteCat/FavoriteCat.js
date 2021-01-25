@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import React, {useState} from "react";
+import React from "react";
 import removeAction from "../../redux/actions/removeAction";
 const FavoriteCat = ({favCat, removeCat, quantity}) => { 
   return (

@@ -21,7 +21,8 @@ const CatContainer = () => {
           ))}
       </div>
       <div className="mt-2 row">
-        <div className="d-flex"><TotalCartNumber />
+        <div className="d-flex">
+        <TotalCartNumber />
         <TotalPrice /> </div>
         <FavoriteCat />
       </div>

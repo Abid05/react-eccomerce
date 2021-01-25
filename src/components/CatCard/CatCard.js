@@ -1,9 +1,7 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { connect } from "react-redux";
 import addAction from "../../redux/actions/addAction";
 const CatCard = ({ cat, addCat }) => {
-
-
   return (
     <div className="col-md-3 px-0">
       <div className="card m-1 h-100">
@@ -16,7 +14,7 @@ const CatCard = ({ cat, addCat }) => {
             <strong>{cat.price}</strong>
           </div>
           <button
-            onClick={() => {
+            onClick={() => { 
               addCat(cat); 
             }}
             className="d-block mx-auto btn btn-primary"
@@ -28,6 +26,7 @@ const CatCard = ({ cat, addCat }) => {
     </div>
   );
 };
+
 const mapDispatchToProps = (dispatch) => ({
   addCat: (cat) => {
     dispatch(addAction(cat));
