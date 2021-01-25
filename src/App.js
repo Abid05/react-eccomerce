@@ -1,11 +1,6 @@
-import React from "react";
-import Cat from "./components/cat/Cat";
-
+import React from "react"; 
+import CatContainer from "./components/CatContainer/CatContainer";
 const App = () => {
-  return (
-    <div>
-      <Cat />
-    </div>
-  );
+  return <CatContainer />;
 };
 export default App;
