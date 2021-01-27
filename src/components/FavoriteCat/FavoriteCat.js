@@ -1,16 +1,16 @@
 import { connect } from "react-redux";
 import React from "react";
 import removeAction from "../../redux/actions/removeAction";
-const FavoriteCat = ({favCat, removeCat, quantity}) => { 
+const FavoriteCat = ({favCat, removeCat}) => {
+  const  [quantity] = favCat;
   return (
     <>
       {favCat &&
-        favCat &&
         favCat.map((cat, index) => (
           <div className="col-md-3 px-0" key={index}>
             <div className="card h-100 m-1">
               <div className="card-body d-flex justify-content-between flex-column">
-                <div className="d-flex justify-content-between align-items-center"><h5 className="card-title">{cat && cat.name}</h5><span>Quantity: {quantity}</span></div>                
+                <div className="d-flex justify-content-between align-items-center"><h5 className="card-title">{cat && cat.name}</h5><span>Quantity: {quantity.quantity}</span></div>                
               <img
                 src={cat && cat.img}
                 className="card-img-top"
@@ -36,9 +36,8 @@ const FavoriteCat = ({favCat, removeCat, quantity}) => {
   );
 };
 
-const mapStateToProps = (state) => ({
-  favCat: state.cat,
-  quantity: state.quantity
+const mapStateToProps = (state) => ({ 
+  favCat: state.cat
 });
  
 const mapDispatchToProps = dispatch => ({

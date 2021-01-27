@@ -11,7 +11,7 @@ const data = () => {
         city: "Gwenborough",
         zipcode: "92998-3874",
       },
-      price: 1840,
+      price: 200,
       website: "hildegard.org",
       company: {
         name: "Romaguera-Crona",
@@ -30,7 +30,7 @@ const data = () => {
         city: "Wisokyburgh",
         zipcode: "90566-7771",
       },
-      price: 2540,
+      price: 150,
       website: "anastasia.net",
       company: {
         name: "Deckow-Crist",
@@ -49,7 +49,7 @@ const data = () => {
         city: "McKenziehaven",
         zipcode: "59590-4157",
       },
-      price: 655,
+      price: 400,
       website: "ramiro.info",
       company: {
         name: "Romaguera-Jacobson",
@@ -68,7 +68,7 @@ const data = () => {
         city: "South Elvis",
         zipcode: "53919-4257",
       },
-      price: 3212,
+      price: 375,
       website: "kale.biz",
       company: {
         name: "Robel-Corkery",
@@ -83,7 +83,7 @@ const data = () => {
       username: "Kamren",
       email: "Lucio_Hettinger@annie.ca",
       address: {},
-      price: 443,
+      price: 500,
       website: "demarco.info",
       company: {
         name: "Keebler LLC",
@@ -102,7 +102,7 @@ const data = () => {
         city: "South Christy",
         zipcode: "23505-1337",
       },
-      price: 2544,
+      price: 450,
       website: "ola.org",
       company: {
         name: "Considine-Lockman",
@@ -121,7 +121,7 @@ const data = () => {
         city: "Howemouth",
         zipcode: "58804-1099",
       },
-      price: 978,
+      price: 908,
       website: "elvis.io",
       company: {
         name: "Johns Group",
@@ -140,7 +140,7 @@ const data = () => {
         city: "Aliyaview",
         zipcode: "45169",
       },
-      price: 8319,
+      price: 319,
       website: "jacynthe.com",
       company: {
         name: "Abernathy Group",
@@ -159,7 +159,7 @@ const data = () => {
         city: "Bartholomebury",
         zipcode: "76495-3109",
       },
-      price: 4555,
+      price: 555,
       website: "conrad.com",
       company: {
         name: "Yost and Sons",
@@ -178,7 +178,7 @@ const data = () => {
         city: "Lebsackbury",
         zipcode: "31428-2261",
       },
-      price: 6743,
+      price: 699,
       website: "ambrose.net",
       company: {
         name: "Hoeger LLC",

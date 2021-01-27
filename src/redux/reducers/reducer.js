@@ -1,13 +1,13 @@
 import {addType} from '../actions/types';
 import {removeType} from '../actions/types';
+import {addCat} from './cat.utils';
 const intialState = { cat: [] };
 const reducer = (state = intialState, action) => {
   switch (action.type) {
     case addType: { 
-      let quantity = 1;  
       return { 
         ...state, 
-        cat: [...state.cat, action.payload],quantity
+        cat: addCat(state.cat, action.payload)
       } 
     }
     case removeType: {
